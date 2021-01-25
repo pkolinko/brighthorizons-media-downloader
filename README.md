@@ -55,7 +55,9 @@ as described in the next few steps:
 6.) In Dev Tools, right click on the URL and copy link address. Open a new Chrome tab and copy paste the link into the address bar. 
     You should now see the large photo of your child by itself, not embedded into the familyinfocenter frame. 
     Double check that the address bar starts with https://mybrightday.brighthorizons.com
- 
-7.) Paste this script in Dev Tools console
 
-8.) Hit "Enter"
+7.) Open Dev Tools in the new page with the larger photo of the child that starts with mybrightday.brighthorizons.com
+
+8.) Paste this script in Dev Tools console
+
+9.) Hit "Enter"
