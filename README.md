@@ -1,5 +1,5 @@
-# tadpoles-media-downloader
-Hack method to download all of your media from tadpoles.com and brighthorizons
+# brighthorizons-media-downloader
+Hack method to download all of your media from tadpoles.com and brighthorizons mybrightday
 
 ***ORIGINAL AUTHOR TADPOLES.COM INSTRUCTIONS, PLEASE SEE MODIFIED BRIGHT HORIZONS INSTRUCTIONS BELOW THE ORIGINAL***
 
