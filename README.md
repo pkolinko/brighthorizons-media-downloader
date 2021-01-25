@@ -61,3 +61,7 @@ as described in the next few steps:
 8.) Paste this script in console of page described in 7.
 
 9.) Hit "Enter"
+
+10.) Enter desired start date of the photos. For example, if you want to download only from January 1st, 2020 until now, enter 2020-01-01
+
+11.) The browser will ask you whether you want to download multiple files. Accept. 
