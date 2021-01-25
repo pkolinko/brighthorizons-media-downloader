@@ -58,6 +58,6 @@ as described in the next few steps:
 
 7.) Open Dev Tools in the new page with the larger photo of the child that starts with mybrightday.brighthorizons.com
 
-8.) Paste this script in Dev Tools console
+8.) Paste this script in console of page described in 7.
 
 9.) Hit "Enter"
