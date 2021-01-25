@@ -2,6 +2,7 @@
 Hack method to download all of your media from tadpoles.com
 
 ***INSTRUCTIONS BELOW***
+***THESE INSTRUCTIONS WERE NOT MODIFIED FOR USE WITH BRIGHT HORIZONS, USE INSTRUCTIONS IN THE .js file instead***
 
 Quick script I wrote to download all pictures and videos out of tadpoles. To use, do the following:
 
