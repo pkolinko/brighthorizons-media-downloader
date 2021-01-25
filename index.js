@@ -27,9 +27,11 @@
 //         You should now see the large photo of your child by itself, not embedded into the familyinfocenter browser. 
 //         Double check that the address bar starts with https://mybrightday.brighthorizons.com
 // 
-//     7.) Paste this script in console
+//     7.) Open Dev Tools in the new page with the larger photo of the child that starts with mybrightday.brighthorizons.com
+//     
+//     8.) Paste this script in console of page described in 7.
 //
-//     8.) Hit "Enter"
+//     9.) Hit "Enter"
 //
 //
 // NOTES: 
