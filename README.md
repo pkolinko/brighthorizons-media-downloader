@@ -1,7 +1,7 @@
 # tadpoles-media-downloader
 Hack method to download all of your media from tadpoles.com and brighthorizons
 
-***ORIGINAL AUTHOR TADPOLE INSTRUCTIONS, PLEASE SEE MODIFIED INSTRUCTIONS BELOW THE ORIGINAL***
+***ORIGINAL AUTHOR TADPOLES.COM INSTRUCTIONS, PLEASE SEE MODIFIED BRIGHT HORIZONS INSTRUCTIONS BELOW THE ORIGINAL***
 
 Quick script I wrote to download all pictures and videos out of tadpoles. To use, do the following:
 
