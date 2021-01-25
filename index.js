@@ -2,16 +2,31 @@
 //
 // Script: TadpoleExcavator
 // Purpose: Download all pictures and movies from tadpoles website
+// 
 // How To: 
+// Note: Instructions modified for BrightHorizons MyBrightDay
 // 
 //     1.) Use google chrome
-//     2.) Log into tadpoles website
-//     3.) Open "Dev Tools" in chrome
+//     2.) Log into https://familyinfocenter.brighthorizons.com or similar website
+
+//     3.) The pictures are not actually stored at https://familyinfocenter.brighthorizons.com , but rather
+//         at https://mybrightday.brighthorizons.com , so switch your view from familyinfocenter to mybrightday
+//         as described in the next few steps: 
+
+//     4.) Open "Dev Tools" in chrome
 //          *Windows: ctrl+shift+c
 //          *Mac: Command+Option+C
 //          *nix: ???
-//      4.) Paste this script in console
-//      5.) Hit "Enter"
+
+//     5.) From familyinfocenter click on one of the photos of your children to see a larger photo of your child pop up within familyinfocenter website.
+//         Use "Dev Tools" "Elements" tab to locate the full URL of this photo. You can search for HTML tag that starts with <img class = 
+//         it will have a source, src = "/remote/v1 ... " etc..
+//         If you don't do the steps described here
+//     6.) In Dev Tools, right click on the URL and copy link address. Open a new Chrome tab and copy paste the link into the address bar. 
+//         You should now see the large photo of your child by itself, not embedded into the familyinfocenter browser. 
+//         Double check that the address bar starts with https://mybrightday.brighthorizons.com 
+//     7.) Paste this script in console
+//     8.) Hit "Enter"
 //
 //
 // NOTES: 
@@ -24,8 +39,11 @@
 //
 // 
 // Author: Justin Wolcott
+// Code and instructions modified for BrightHorizons MyBrightDay by Pavel Kolinko
+// All credit goes to original author Justin, for creating an amazing script.
 //
-// Contact: Justin.W.Wolcott@gmail.com
+// Contact: Justin.W.Wolcott@gmail.com  
+// 
 //
 // /////////////////////////////
 
@@ -61,7 +79,7 @@ function url_maker(start_date, stop_date){
     // Step 2: Spit out our data URL for the given time frame
     //
  
-    return `https://www.tadpoles.com/remote/v1/events?direction=range&earliest_event_time=${start_date}&latest_event_time=${stop_date}&num_events=300&client=dashboard`;
+    return `https://mybrightday.brighthorizons.com/remote/v1/events?direction=range&earliest_event_time=${start_date}&latest_event_time=${stop_date}&num_events=300&client=dashboard`;
 }
 
 
@@ -113,7 +131,7 @@ function get_data(start_date, end_date){
 //
 async function get_media(key, attachment){
     
-    let url = `https://www.tadpoles.com/remote/v1/obj_attachment?obj=${key}&key=${attachment}&download=true`;
+    let url = `https://mybrightday.brighthorizons.com/remote/v1/obj_attachment?obj=${key}&key=${attachment}&download=true`;
 
     var link = document.createElement("a");
     link.setAttribute("href", url);
