@@ -43,9 +43,9 @@ at https://mybrightday.brighthorizons.com , so switch your view from familyinfoc
 as described in the next few steps: 
 
 4.) Open "Dev Tools" in chrome
-*Windows: ctrl+shift+c .
-*Mac: Command+Option+C .
-*nix: ??? .
+*Windows: ctrl+shift+c
+*Mac: Command+Option+C
+*nix: ???
 
 5.) From familyinfocenter click on one of the photos of your children to see a larger photo of your child pop up within familyinfocenter website.
     Use "Dev Tools" "Elements" tab to locate the full URL of this photo. You can search for HTML tag that starts with <img class = 
